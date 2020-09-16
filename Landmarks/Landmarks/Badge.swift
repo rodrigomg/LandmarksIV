@@ -49,6 +49,7 @@ struct Badge: View {
                 startPoint: .init(x: 0.5, y: 0),
                 endPoint: .init(x: 0.5, y: 0.6)
             ))
+            .aspectRatio(1, contentMode: .fit)
         }
     }
     static let gradientStart = Color(red: 239.0 / 255, green: 120.0 / 255, blue: 221.0 / 255)
